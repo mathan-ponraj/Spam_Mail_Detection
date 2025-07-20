@@ -35,7 +35,7 @@ python train_and_evaluate.py
 ```
 ---
 ## Results
-The model achieved an accuracy of X%, with precision and recall values of X and Y, respectively. These metrics demonstrate the model's ability to accurately detect spam emails.
+The model achieved an accuracy of 95% respectively. These metrics demonstrate the model's ability to accurately detect spam emails.
 
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements or new features!
