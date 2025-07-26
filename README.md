@@ -1,41 +1,46 @@
-# Spam Mail Detection
+# Spam Mail Detection using Logistic Regression
+
+This project implements a Spam Mail Detection system using Logistic Regression for binary classification. The model determines whether an email is spam or not, focusing on essential text preprocessing techniques and TF-IDF vectorization.
+
+---
 
 ## Project Overview
-This project implements a spam mail detection system using Logistic Regression for binary classification of emails. The model identifies whether an email is spam or not. The primary focus is on text preprocessing techniques such as tokenization, stopword removal, and lemmatization. The features are extracted from the email content using TF-IDF vectorization, and the Logistic Regression model is used to classify the emails.
+
+The primary objective of this project is to classify emails as spam or non-spam based on their content. The workflow involves text preprocessing (tokenisation, stopword removal, lemmatisation), transforming the processed text into numerical vectors using TF-IDF, and applying Logistic Regression for classification.
+
+---
 
 ## Features
-- **Preprocessing:** Tokenization, stopword removal, and lemmatization of email content.
-- **Vectorization:** Text vectorization using TF-IDF.
-- **Classification:** Logistic Regression for spam classification.
-- **Evaluation:** Model evaluation using accuracy-score.
 
-## Getting Started
+- **Preprocessing**  
+  Tokenisation, stopword removal, and lemmatisation of email text data to clean and standardise input.
 
-### Prerequisites
-- Python 3.x
-- Required libraries: `pandas`, `numpy`, `scikit-learn`, `nltk`, `matplotlib`, `seaborn`
+- **Vectorization**  
+  Utilised TF-IDF vectorisation to convert text into feature vectors suitable for model training.
 
-### Installation
+- **Classification**  
+  Implemented a Logistic Regression model for binary classification of emails.
 
-1. Clone this repository:
-    ```
-    git clone https://github.com/yourusername/spam-mail-detection.git
-    cd spam-mail-detection
-    ```
+- **Evaluation**  
+  Model performance was evaluated using accuracy score to assess its effectiveness.
 
-2. Install the required libraries:
-    ```
-    pip install -r requirements.txt
-    ```
-
-### Usage
-To train the model and evaluate its performance, run the following command in your terminal:
-```
-python train_and_evaluate.py
-```
 ---
-## Results
-The model achieved an accuracy of 95% respectively. These metrics demonstrate the model's ability to accurately detect spam emails.
 
-## Contributing
-Feel free to fork the repository and submit pull requests with improvements or new features!
+## Technologies Used
+- Python
+- Scikit-learn
+- NLTK
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## Results
+The model achieved an accuracy of **95%**, demonstrating its effectiveness in detecting spam emails through text analysis and classification techniques.
+
+---
+
+## Conclusion
+This project showcases the use of Logistic Regression combined with NLP preprocessing and TF-IDF vectorisation to build a simple yet effective spam detection model. It serves as a baseline for exploring more advanced models in email classification tasks.
